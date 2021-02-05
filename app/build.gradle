@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.mh.dynamicrelease"
+        applicationId "com.mh.dynamicrelease2"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 2
@@ -43,6 +43,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    implementation project (':custom_form')
-    //implementation 'com.github.MH-projects:DynamicRelease:1.+'
+    //implementation project (':custom_form')
+    implementation 'com.github.MH-projects:DynamicRelease:1.+'
 }
