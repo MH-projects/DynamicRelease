@@ -28,6 +28,14 @@
         android:layout_marginTop="8dp"
         android:hint="Ap. Materno" />
 
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAmaterno"
+        android:layout_marginTop="8dp"
+        android:hint="Email" />
+
     <Button
         android:id="@+id/btnNext"
         android:layout_width="match_parent"
