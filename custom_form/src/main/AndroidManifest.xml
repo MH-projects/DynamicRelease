@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mh.custom_form">
+
+    <application>
+        <activity android:name=".ActCustomForm"></activity>
+    </application>
+
+</manifest>
