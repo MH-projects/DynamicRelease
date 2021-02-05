@@ -44,6 +44,14 @@
         android:layout_marginTop="8dp"
         android:hint="Dirección" />
 
+    <EditText
+        android:id="@+id/etEntreCalles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddress"
+        android:layout_marginTop="8dp"
+        android:hint="Entre Calles" />
+
     <Button
         android:id="@+id/btnNext"
         android:layout_width="match_parent"
